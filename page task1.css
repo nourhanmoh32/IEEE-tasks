@@ -161,9 +161,6 @@ float: left;
 .service{
   
     overflow: hidden;
-    background-image: url("https://www.crushpixel.com/big-static12/preview4/beautiful-purple-flowers-field-selective-818326.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
     
 }
 .service .items{
@@ -171,7 +168,10 @@ float: left;
     width: 30%;
     float: left;
     text-align:center;
-    padding: 120px 50px;
+    padding: 150px 50px;
+    background-image: url("https://www.crushpixel.com/big-static12/preview4/beautiful-purple-flowers-field-selective-818326.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .service .items.bet{
@@ -263,7 +263,6 @@ h5{
     text-align:center;
     padding: 4px 183px;
 }
-
 a{
     color: rgb(120, 132, 153);
 }
