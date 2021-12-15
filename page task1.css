@@ -87,14 +87,14 @@ float: left;
 /* 3. sections */
 
 /* 3.1 home sec */
-.home{
+#home{
     height: 100vh;
     background-image: url("https://www.sqorebda3.com/vb/attachments/17851/");
     background-size:cover;
     position: relative;
    
 }
-.home-cont{
+#home .home-cont{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -104,17 +104,17 @@ float: left;
     font-family: Arial, Helvetica, sans-serif;
     width: 60%;
 }
-.home .home-h{
+#home .home-h{
     color: rgb(55, 33, 75);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.home .home-prag{
+#home .home-prag{
     margin: 20px 0;
     letter-spacing: 1px;
     color: rgb(71, 23, 116);
 }
 /* عملت كلاس مشترك للزراير وكلاس منفرد عشان أتحكم فيهم سوا وف كل واحد لوحده */
-.home .b1{
+#home .b1{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(74, 11, 133);
@@ -123,23 +123,23 @@ float: left;
     padding: 10px;
     border-radius: 5px;
 }
-.home .b1:hover{
+#home .b1:hover{
     background-color: rgb(151, 124, 175);
     transition: 1s;
 }
 
 /* about sec */
-.about{
+#about{
     background-color: rgb(103, 81, 105);
-    position: relative;
+    text-align: center;
     padding: 100px 0;
 }
-.about-content{
-    text-align: center;
+ .about-content {
+    
     font-size: 19px;
     padding: 18px 0;
 }
-.about .about-botton{
+.about-botton{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(30, 16, 43);
@@ -148,22 +148,20 @@ float: left;
     padding: 10px;
     border-radius: 14px;
     text-align: center;
-    position: absolute;
-    top: 81%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-top: 10px;
+    
 }
-.about .about-botton:hover{
+.about-botton:hover{
     background-color: rgb(130, 101, 155);
     transition: 1s;
 }
 /* services sec */
-.service{
+#service{
   
     overflow: hidden;
     
 }
-.service .items{
+#service .items{
     color:rgb(48, 16, 78);
     width: 30%;
     float: left;
@@ -172,16 +170,17 @@ float: left;
     background-image: url("https://www.crushpixel.com/big-static12/preview4/beautiful-purple-flowers-field-selective-818326.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    padding-bottom: 174px;
+    display: inline;
 }
-.service .items.bet{
+#service .items.bet{
     margin: 0 5%;
 }
 h3{
     margin-top: 10px;
     font-size: 25px;
 }
-.service .ser-prag{
+#service .ser-prag{
     color: #fff;
     font-size: 20px;
     text-transform: capitalize;
@@ -189,7 +188,7 @@ h3{
 }
 
 /* payment sec */
-.payment{
+section{
 overflow: hidden;
     padding: 95px 0;
     background-color: rgb(241, 192, 243);
@@ -202,21 +201,21 @@ h2{
     padding-bottom: 50px;
  
 }
-.payment .payment-boxs{
+.payment-boxs{
     width: 111%;
     text-align: center;
     float: left;
 }
-.payment .payment-boxs .item{
+.payment-boxs .item{
    
     width: 30%;
     float: left;
     text-align:center;
 }
-.payment .item .pa{
+.item .pa{
     margin: 0 5%;
 }
-.payment .pay-prag{
+.pay-prag{
     color: rgb(97, 78, 116);
     text-align: center;
     letter-spacing: 1px;
@@ -225,7 +224,7 @@ h2{
     padding-bottom: 85px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.payment .container .side-prag{
+ .container .side-prag{
     padding: 10px 0;
     padding-right: 45px;
     width: 50%;
@@ -238,27 +237,27 @@ h5{
     font-size: 23px;
     padding-top: 30px;
 }
-.payment .container .side-img{
+.container .side-img{
     height: inherit;
     width: 290px;
     float: right;
 }
 
 /* contact sec */
-.contact {
+footer {
     
     text-align: center;
 }
-.contact .con-title{
+.con-title{
     padding: 30px 0;
     font-size: 30px;
 }
-.contact .con-item{
+.con-item{
     text-align: center;
     float: left;
 
 }
-.contact .con-item .it{
+.con-item .it{
     float: left;
     text-align:center;
     padding: 4px 183px;
